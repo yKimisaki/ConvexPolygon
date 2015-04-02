@@ -2,10 +2,10 @@
 
 namespace Tonari.ConvexPolygon
 {
-    public class Point2D :  IEquatable<Point2D>
+    public class Point2D : IEquatable<Point2D>
     {
         public static Point2D Zero { get { return new Point2D(); } }
-        
+
         public float X;
         public float Y;
 
